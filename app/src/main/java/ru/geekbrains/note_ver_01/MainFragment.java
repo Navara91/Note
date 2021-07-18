@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 public class MainFragment extends Fragment {
 
@@ -26,5 +27,9 @@ public class MainFragment extends Fragment {
         initList(view);
     }
 
+    private void initList(View view) {
+        LinearLayout layoutView = (LinearLayout) view;
+
+    }
 
 }
