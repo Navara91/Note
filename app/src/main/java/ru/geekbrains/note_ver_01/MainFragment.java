@@ -13,6 +13,9 @@ import android.widget.LinearLayout;
 
 public class MainFragment extends Fragment {
 
+    private Note[] notes;
+    private Note currentNote;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -29,6 +32,7 @@ public class MainFragment extends Fragment {
 
     private void initList(View view) {
         LinearLayout layoutView = (LinearLayout) view;
+
 
     }
 
